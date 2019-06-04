@@ -11,7 +11,10 @@ get '/newteam' do
 end 
 
 post '/team' do 
-  @team_details = params 
+  @team_details = params
+  
+  erb :team
+  
 end 
 
 end
